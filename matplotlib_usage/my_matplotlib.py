@@ -15,7 +15,7 @@ plt.plot(x,x**3,label='x^3')
 plt.legend(loc='upper right',title="标题")
 
 for _ in range(2):
-    plt.savefig(f'image{_}.jpg',dpi=200)    #png格式的也行
+    plt.savefig(f'./output_image/image{_}.jpg',dpi=200)    #png格式的也行
 
 plt.show()
 
